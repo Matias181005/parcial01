@@ -1,0 +1,109 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+} 
+header { 
+    background-color: #333; /* Color de fondo del encabezado */ 
+    color: #fff; /* Color del texto del encabezado */ 
+    padding: 10px 20px; /* Espaciado interno del encabezado */ 
+    display: flex; 
+    align-items: center; 
+}
+table {
+     width: 100%;
+     border-collapse: collapse;
+     border: 2px solid black; /* Borde negro */
+    }
+    
+td {
+    border: 1px solid black; /* Borde negro para cada celda */
+    padding: 10px; /* Espacio interno */
+    text-align: center;
+    vertical-align: top; /* Alinear el contenido en la parte superior de la celda */
+    }
+    
+img {
+    max-width: 100%; /* Ajustar el tamaño máximo de las imágenes */
+    height: auto;
+    display: block; /* Hacer que las imágenes ocupen todo el ancho disponible */
+    margin-bottom: 10px; /* Espacio entre la imagen y el subtítulo */
+    margin-left: auto;
+    margin-right: auto;
+    } 
+
+.logo { 
+    width: 100px; /* Ancho del logo */ 
+    margin-right: 10px; /* Espacio entre el logo y el título */ 
+    margin: 10px;
+}
+h2 { 
+    margin: 0; /* Elimina el margen predeterminado del título */
+    font-family: 'Courier New', Courier, monospace;
+    color:#420516;
+    font-weight: -400;
+} 
+h3 { 
+    margin: 0; /* Elimina el margen predeterminado del título */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4 { 
+    margin: 0; /* Elimina el margen predeterminado del título */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+p { 
+    margin: 0; /* Elimina el margen predeterminado del título */
+    font-family: Arial, Helvetica, sans-serif; 
+}  
+.menu {
+    display: flex; /*desplegamos en una linea*/
+    background-color: #0e4b38; /*color de fondo*/
+    padding: 5px; /*espacio entre la caja*/
+    float: right; /*ubicacion en la derecha*/
+  }
+  /*.(nombre de la clase)*/
+  .menu a {
+    /* todos las etiquetas a dentro de menu*/
+    color: #fff; /*color de la letra*/
+    text-align: center; /*alineacion al centro*/
+    padding: 14px 16px; /*color de la letra (arriba, derecha,abajo,izquierda)*/
+    text-decoration: none; /*indicamos que no tiene decoracion*/
+  }
+
+  .menu a:hover {
+    /*en el menu y cubra la etiqueta a cambia de color*/
+    background-color: #787772; /*indicamos el color*/
+  }
+  .imagen { 
+    width: 400px; /* Ancho fijo de la imagen */ 
+    height: 200px; /* Altura fija de la imagen */ 
+    object-fit: cover; /* Escala la imagen para llenar el contenedor manteniendo la relación de aspecto */ 
+    display: block;  margin-left: auto;
+    margin-right: auto;
+    /* Añade más estilos según sea necesario */ 
+}
+  footer {            
+    position: static;            
+    margin-top:50px;
+    margin-block-end: auto;
+    width:100%;
+    height: 100px;            
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto del footer */            
+    padding: 20px; /* Espaciado interno del footer */
+    text-align: center; /* Centra el contenido horizontalmente */  
+}
+.video-container {
+    position: relative;            
+    width: 100%; /* Ancho del contenedor del video al 100% del footer */   
+}
+.video-container iframe {
+    position: absolute;            
+    top: 0;
+    left: 0;            
+    width: 200px; /* Ancho del video al 100% del contenedor */
+    height: 100px; /* Altura del video al 100% del contenedor */        
+}
+
+
